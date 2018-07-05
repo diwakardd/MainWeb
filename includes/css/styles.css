@@ -1,0 +1,161 @@
+
+#features{
+    text-align: center;
+}
+
+#features img{
+    margin: 0 0 20px;
+}
+
+#inputMessage{
+    margin-bottom: 15px;
+}
+footer{
+    background: #333;
+    color:#eee;
+    font-size: 11px;
+    padding: 20px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   
+   body{
+       -webkit-font-smoothing:antialiased;
+       text-rendering: optimizeLegibility;
+   }
+   
+   .well .page-header{
+margin-top: 10px;
+   }
+.well .page-header h1{
+    margin-top: 0;
+}
+ul.unstyled{
+    list-style: none;
+    padding: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+       width: 200px;
+   }   
+   .navbar-brand{
+       padding: 13px 15px;
+   }
+
+
+
+
+
+
+    .jumbotron{
+        background: url('../../images/maxresdefault.jpg');
+        text-align: center;
+        background-size: cover;
+        color:black;
+        height:100%;
+        opacity: 0.9;
+        margin-top:0;
+        margin-bottom:8px;
+     }
+
+     .btn1{
+         margin: auto;
+         text-align: center;
+          }
+
+          footer {
+            padding: 50px 0 20px 0;
+            background-color:rgb(1, 7, 5);
+            opacity: 0.7;
+            color: #878c94;
+        }
+        .footer .title{
+            text-align: left;
+            color:#fff;
+            font-size:25px;
+        }
+        .footer .social-icon{
+            padding:0px;
+            margin:0px;
+        }
+        .footer .social-icon a{
+            display:inline-block;
+            color:#fff;
+            font-size:25px;
+            padding:5px;
+        }
+        .footer .acount-icon a{
+            display:block;
+            color:#fff;
+            font-size:18px;
+            padding:5px;
+            text-decoration:none;
+        }
+        .footer .acount-icon .fa{
+            margin-right:25px;
+        }
+        .footer .category a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            padding: 5px 20px;
+            margin: 1px;
+            border-radius:4px;
+            margin-top: 6px;
+            background-color: black;
+            border: solid 1px #fff;
+        }
+        .footer .payment{
+            margin:0px;
+            padding:0px;
+            list-style-type:none
+        }
+        .footer .payment li{
+            list-style-type:none
+        }
+        .footer .payment li a {
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+            display: inline;
+            font-size: 25px;
+            padding: 10px 10px;
+        }
+
+
+
+
+        .fc {
+            margin: 0;
+            padding: .3rem;
+            background-color: #eee;
+            font: 1rem 'Fira Sans', sans-serif;
+        }
+        
+        .fc > h1,
+        .day-forecast {
+            margin: .5rem;
+            padding: .3rem;
+            font-size: 1.2rem;
+        }
+        
+        .day-fc {
+            background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+        }
+        
+        .day-fc > h2,
+        .day-fc>p {
+            margin: .2rem;
+            font-size: 1rem;
+        }
+        
+        @font-face {
+            font-family: 'Fira Sans';
+            src: local('FiraSans-Regular'),
+            url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+        }
