@@ -55,12 +55,13 @@ ul.unstyled{
     .jumbotron{
         background: url('../../images/maxresdefault.jpg');
         text-align: center;
-        background-size: cover;
+        background-size: contain;
         color:black;
-        height:100%;
+        height:200%;
+        width: 100%;
         opacity: 0.9;
-        margin-top:0;
-        margin-bottom:8px;
+        margin:auto;
+        margin-bottom:1px;
      }
 
      .btn1{
@@ -157,5 +158,6 @@ ul.unstyled{
         @font-face {
             font-family: 'Fira Sans';
             src: local('FiraSans-Regular'),
-            url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
-        }
+            url('/media/fonts/FiraSans-Regular.woff2') format('woff2');}
+
+            
